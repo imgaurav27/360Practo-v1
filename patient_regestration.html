@@ -1,67 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Patient Regestration Page</title>
 </head>
 <body>
     <center>
     <form>
         <table>
             <center>
-            <th><b><h1> Patient Registration Form :</h1></b> </th>
+            <caption><b><h1> Patient Registration Form :</h1></b></caption>
             </center>
             <!-- Name using input type text-->
              <tr>
                 <td>
-                    <label><b> Enter Full Name :</b></label>
+                    <label for="id1"><b> Enter Full Name :</b></label>
                 </td>
                 <td>
-                    <input type="text" placeholder="Enter Full Name">
+                    <input type="text" id="id1" name="name1"  placeholder="Enter Full Name">
                 </td>
              </tr>
              <!-- Password using input type Password-->
               <tr>
                 <td>
-                    <label><b> Password :</b></label>
+                    <label for="id2"><b> Password :</b></label>
                 </td>
                 <td>
-                    <input type="password" placeholder="Password">
+                    <input type="password" id="id2" name="name2"  placeholder="Password">
                 </td>
               </tr>
               <!--Enter Email using input type Email-->
               <tr>
                 <td>
-                    <label><b>Enter Email :</b></label>
+                    <label for="id3"><b>Enter Email :</b></label>
                 </td>
                 <td>
-                    <input type="email" placeholder="abc@example.in"> 
+                    <input type="email" id="id3" name="name3"  placeholder="abc@example.in"> 
                 </td>
               </tr>
               <!--phone number using input type number-->
               <tr>
                 <td>
-                    <label><b> Phone Number :</b></label>
+                    <label for="id4"><b> Phone Number :</b></label>
                 </td>
                 <td>
-                    <input type="number" placeholder="1234567890">
+                    <input type="number" id="id4" name="name4"  placeholder="1234567890">
                 </td>
               </tr>
               <!--Date of Birth using  input type Date-->
               <tr>
                 <td>
-                    <label><b>Date of Birth :</b></label>
+                    <label for="id5"><b>Date of Birth :</b></label>
                 </td>
                 <td>
-                    <input type="Date">
+                    <input type="Date" id="id5" name="name5" >
                 </td>
               </tr>
               <!--Appointment date & time using input type datetime-local -->
               <tr>
                 <td>
-                    <label><b>Appointment Date & Time :</b></label>
+                    <label for="id6"><b>Appointment Date & Time :</b></label>
                 </td>
                 <td>
-                    <input type="datetime-local" value="datetime">
+                    <input type="datetime-local" id="id6" name="name6"  value="datetime">
                 </td>
               </tr>
               <!--Gender using input type Radio-->
@@ -104,12 +104,12 @@
                <!--Address using textarea-->
                <tr>
                 <td>
-                    <label><b>Address :</b></label>
+                    <label for="id7"><b>Address :</b></label>
                 </td>
                </tr>
                <tr>
                 <td>
-                    <textarea row="5" cols="20" placeholder="Enter Address"></textarea>
+                    <textarea row="5" cols="20" id="id7" name="name7"  placeholder="Enter Address"></textarea>
                 </td>
                </tr>
                <!--upload report using input type file-->

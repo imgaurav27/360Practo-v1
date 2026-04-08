@@ -1,49 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Docter Regestration Page</title>
 </head>
 <body>
-    <center>
     <form>
-        <table>
-            <center>
-            <th><b><h1> Doctor Registration Form :</h1></b> </th>
-            </center>
+        <table align="center" cellpadding="5px" cellspacing="5px">
+            <caption><b><h1> Doctor Registration Form :</h1></b> </caption>
             <!-- For name-->
             <tr>
                 <td>
-                    <label><b>Enter Your Full Name : </b></label>
+                    <label for="id1"><b>Enter Your Full Name : </b></label>
                 </td>
                 <td>
-                    <input type="text" placeholder="Enter Full Name">
+                    <input type="text" id="id1" name="name1" placeholder="Enter Full Name">
                 </td>
             </tr>
             <!--For Password-->
             <tr>
                 <td>
-                    <label><b> Enter Password :</b></label>
+                    <label for="id2"><b> Enter Password :</b></label>
                 </td>
                 <td>
-                    <input type="password" placeholder="Enter Password">
+                    <input type="password" id="id2" name="name2" placeholder="Enter Password">
                 </td>
             </tr>
             <!--For Email-->
             <tr>
                 <td>
-                    <label><b> Email :</b></label>
+                    <label for="id3"><b> Email :</b></label>
                 </td>
                 <td>
-                    <input type="email" placeholder="Enter Email">
+                    <input type="email"  id="id3" name="name3"  placeholder="Enter Email">
                 </td>
             </tr>
             <!--For Phone number-->
             <tr>
                 <td>
-                    <label><b> Enter Phone Number</b></label>
+                    <label for="id4"><b> Enter Phone Number</b></label>
                 </td>
                 <td>
-                    <input type="number" placeholder="Enter Mo Number">
+                    <input type="number" id="id4" name="name4"  placeholder="Enter Mo Number">
                 </td>
             </tr>
             <!-- Using DropDown Specialization-->
@@ -63,10 +60,10 @@
             <!-- Experience in Years-->
              <tr>
                 <td>
-                    <label><b>Experience(Years) :</b></label>
+                    <label for="id5"><b>Experience(Years) :</b></label>
                 </td>
                 <td>
-                    <input type="number" placeholder="Enter Experience">
+                    <input type="number" id="id5" name="name5"  placeholder="Enter Experience">
                 </td>
              </tr>
              <!-- Select Gender using Radio button-->
@@ -98,19 +95,19 @@
             <!-- Available time use input type=time-->
             <tr>
                 <td>
-                    <label><b> Available Time :</b></label>
+                    <label for="id6"><b> Available Time :</b></label>
                 </td>
                 <td>
-                    <input type="time">
+                    <input type="time" id="id6" name="name6" >
                 </td>
             </tr>
             <!--Address Using Textarea-->
             <tr>
                 <td>
-                    <label><b>Enter Address :</b></label>
+                    <label for="id7"><b>Enter Address :</b></label>
                 </td>
                 <td>
-                    <textarea rows="5" cols="20" placeholder="Enter the Address"></textarea>
+                    <textarea rows="5" cols="20" id="id7" name="name7"  placeholder="Enter the Address"></textarea>
                 </td>
             </tr>
             <!--Upload Certificate usig input type=File -->
@@ -119,7 +116,7 @@
                     <label><b> Upload Certificate :</b></label>
                 </td>
                 <td>
-                    <input type="File">
+                    <input type="File" >
                 </td>
             </tr>
             <!--Create a Register Button Using input=Register-->
@@ -135,6 +132,5 @@
 
         </table>
     </form> 
-    </center>
 </body>
 </html>

@@ -1,11 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>Document</title>
+    <title>Doctor Information</title>
 </head>
+
 <body>
-    <head></head>
-    <main></main>
-    <footer></footer>
+
+    <center>
+        <table border="1" cellspacing="0" cellpadding="10">
+
+            <!-- 1. Table Heading -->
+            <tr>
+                <th colspan="5">
+                    <h2>City Hospital - Doctor Information</h2>
+                </th>
+            </tr>
+
+            <!-- 2. Column Headings --> 
+            <tr>
+                <th>Photo</th>
+                <th>Name</th>
+                <th>Specialization</th>
+                <th>Contact</th>
+                <th>Profile</th>
+            </tr>
+            <!-- 3. Doctor 1 Row -->
+            <tr>
+                <td rowspan="2">
+                    <img src="https://drupal-cdn-hfaeddcdbng5hfbg.a01.azurefd.net/sites/default/files/2025-04/Dr%20Sumara%20Maqbool" alt="Doctor Photo" width="80">
+                </td>
+                <td rowspan="1">Dr.Sumra Maqbool</td>
+                <td rowspan="1">Cardiologist</td>
+                <td rowspan="1">9316000016</td>
+                <td rowspan="1"><a href="https://www.apollohospitals.com/doctors/pulmonologist/delhi/dr-sumara-maqbool">View Profile</a></td>
+            </tr>
+
+            <!-- 4. Availability Row show using divided row -->
+            <tr>
+                <td colspan="4">
+                    Available: Monday - Friday (9 AM - 5 PM)
+                </td>
+            </tr>
+
+            <!-- 5. Doctor 2 Row -->
+            <tr>
+                <td rowspan="2">
+                    <img src="https://drupal-cdn-hfaeddcdbng5hfbg.a01.azurefd.net/sites/default/files/2025-06/dr_akansha_chawla_jain.jpg" width="80">
+                </td>
+                <td rowspan="1">Dr Aakanksha Chawla Jain</td>
+                <td rowspan="1">Dermatologist</td>
+                <td rowspan="1">1234567890</td>
+                <td rowspan="1"><a href="https://www.apollohospitals.com/doctors/pulmonologist/delhi/dr-aakanksha-chawla-jain">View Profile</a></td>
+            </tr>
+
+            <!-- 6. Availability Row show using diivide row -->
+            <tr>
+                <td colspan="4">
+                    Available: Tuesday - Saturday (10 AM - 4 PM)
+                </td>
+            </tr>
+
+            <!-- 7. Footer Row -->
+            <tr>
+                <td colspan="5" align="center">
+                    For appointments, visit our website or call reception.
+                </td>
+            </tr>
+
+        </table>
+    </center>
+
 </body>
+
 </html>
